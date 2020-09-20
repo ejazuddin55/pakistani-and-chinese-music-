@@ -26,7 +26,7 @@ file = open('data.csv', 'w', newline='')
 with file:
     writer = csv.writer(file)
     writer.writerow(header)
-songs = 'minge pak'.split()
+songs = 'minge' 'pak' 'classical ' 'country ' 'pop'.split()
 for g in songs:
     for filename in os.listdir(f'./songs/{g}'):
         songname = f'./songs/{g}/{filename}'
